@@ -1,0 +1,45 @@
+#nav #selected{
+	font-weight:bold;
+}
+#contact{
+	padding:10px;
+}
+#nav ul{
+	list-style-type:none;
+	padding:0;
+}
+body{
+	background-color:#2e1f70;
+}
+#container{
+	width:800px;
+	background-color:#fff;
+	margin-left:auto;
+	margin-right:auto;
+}
+#header{
+	background-color:#4e8db2;
+	text-align:center;
+	padding:20px;
+}
+#content{
+	padding:10px;
+}
+#nav{
+	width:180px;	
+	float:left;
+}
+#main{
+	width:600px;
+	float:right;
+}
+#footer{
+	padding:10px;
+	text-align:right;
+	clear:both;
+	background-color:#4e8db2;
+	padding:10px;
+	color:white;
+}
+
+
