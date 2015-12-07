@@ -1,0 +1,8 @@
+to send a file = "ssmtp abduizzat@gmail.com < filename.txt or /directory/filename.txt"
+Send email body
+ssmtp abduizzat@gmail.com{
+	To: abduizzat@gmail.com
+	From: abduizzat@gmail.com
+	Subject: text
+	Message body here!
+}
