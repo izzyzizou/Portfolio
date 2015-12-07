@@ -75,6 +75,7 @@
 			</ul>
 			<div class="dropdown">
 			<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dropdown<span class="caret"></span></button><ul class="dropdown-menu"><li><a href="#">HTML</a></li></ul></div>
+		<?php for($i=1;$i<=5;$i++){echo "Test: " . $i;}?>
 		</div>
 	</div>
 	<div id="footer">
