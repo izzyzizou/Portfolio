@@ -3,15 +3,36 @@
 <head>
 	<title>Izzat</title>
 <!--<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu">-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <link rel="shortcut icon" type="image/png" href="blue-home-icon.png"/>
-<script href="/dist/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="/dist/css/bootstrap.min.css"/>
+<!--<script href="/dist/js/bootstrap.min.js"></script>-->
+<!--<link rel="stylesheet" href="/dist/css/bootstrap.min.css"/>-->
 <link rel="stylesheet" type="text/css" href="main.css"/>
 <style>
 </style>
 </head>
 <body>
-<div class="navbar navbar-inverse"></div>
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+	<a href="#" class="navbar-brand">Izzat</a>
+	<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	</button>
+	<div class = "collapse navbar-collapse navHeaderCollapse">
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Skills</a></li>
+			<li><a href="#">Experience</a></li>
+			<li><a href="#">Nationality</a></li>
+		</ul>
+	</div>
+</div>
+</div>
+
 <div id="container">
 	<div id="header">
 		<h1>Web.io</h1>
@@ -52,6 +73,8 @@
 				<li id="selected"><a href="index.html">Home</a></li>
 				<li><a href="info.html">More Information</a></li>
 			</ul>
+			<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dropdown<span class="caret"></span></button><ul class="dropdown-menu"><li><a href="#">HTML</a></li></ul></div>
 		</div>
 	</div>
 	<div id="footer">
