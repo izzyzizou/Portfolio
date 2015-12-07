@@ -1,0 +1,3 @@
+to add = "git add filename"
+to commit = "git commit -m "comment"
+to send = "git push"
