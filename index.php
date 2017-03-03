@@ -62,16 +62,16 @@
 
 			<label for="email">Email</label>
 			<input name="email" type="email" id="email"/>
-			
+
 			<input type="submit"/>
 		</form>
-		
+
 
 		</div>
 		<div id="nav">
-			<ul>	
-				<li id="selected"><a href="index.html">Home</a></li>
-				<li><a href="info.html">More Information</a></li>
+			<ul>
+				<li id="selected"><a href="../index.html">Home</a></li>
+				<li><a href="#">More Information</a></li>
 			</ul>
 			<div class="dropdown">
 			<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Dropdown<span class="caret"></span></button><ul class="dropdown-menu"><li><a href="#">HTML</a></li></ul></div>
