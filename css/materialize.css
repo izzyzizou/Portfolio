@@ -5443,8 +5443,8 @@ button.btn-floating {
 }
 
 .collapsible-header {
-  display: block;
-  cursor: pointer;
+  display: inline;
+  cursor: grab;
   min-height: 3rem;
   line-height: 3rem;
   padding: 0 1rem;
